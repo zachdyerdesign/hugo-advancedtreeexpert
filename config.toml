@@ -1,0 +1,9 @@
+baseurl = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Advanced Tree Experts North"
+theme = "advancedtreeexpert"
+
+[params]
+	description = "Advanced Tree Expert North provides outstanding quality and efficiently priced tree services for you local neighborhood."
+	author = "Zach Dyer Design"
+	website = "http://zachdyerdesign.com"

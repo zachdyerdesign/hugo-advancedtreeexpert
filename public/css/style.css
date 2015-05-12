@@ -1,0 +1,27 @@
+a { color: #3BB733; }
+a:hover { color: #297C23; }
+
+.logo img{ width: 150px; }
+
+.js-header {
+  margin-bottom: 40px;
+  font-size: 20px;
+  position: relative;
+  padding: 30px 0;
+  color: #BFE3BF;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  background-color: #54995D;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#467C3D),to(#54995D));
+  background-image: -webkit-linear-gradient(top,#467C3D 0,#54995D 100%);
+  background-image: -o-linear-gradient(top,#467C3D 0,#54995D 100%);
+  background-image: linear-gradient(to bottom,#467C3D 0,#54995D 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#467C3D', endColorstr='#54995D', GradientType=0);
+  background-repeat: repeat-x;
+}
+.js-header h2{
+	font-size: 60px;
+	line-height: 1;
+  margin-top: 0;
+  color: #fff;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{{ $baseUrl := .Site.BaseUrl }}
+<html>
+	
+	<head>
+		
+		<title>{{ .Site.Title }}</title>
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="{{ $baseUrl }}css/style.css">
+	
+	</head>
+	
+	<body>
+		
+		<div class="container">
+			
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						
+					 <a class="navbar-brand" href="{{$baseUrl}}" class="logo">
+						<span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> {{ .Site.Title }}
+					  </a>
+					  <ul class="nav navbar-nav">
+					  <li><a href="{{$baseUrl}}services">Services</a></li>
+					  <li><a href="{{$baseUrl}}testimonies">Testimonies</a></li>
+					  <li><a href="{{$baseUrl}}connect">Connect</a><li>
+					  </ul>
+					</div>
+				  </div>
+			</nav>
+		
+		</div>

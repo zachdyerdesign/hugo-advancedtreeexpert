@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+		
+		<div class="js-header">
+			<div class="container">
+				
+				<h2>Trained Arborists You Can Trust</h2>
+				<p>{{ if isset .Site.Params "description" }}{{ .Site.Params.description }}{{ else }}You can customize this text by params "description" in your <code>config.toml</code>.{{ end }}</p>
+				
+			</div>
+		</div>
+		
+		<div class="container">
+			
+				<!-- Content -->	
+				{{ range where .Site.Pages "Title" "_index" }}
+						{{ .Content }}
+				{{ end }}
+			
+		</div>
+		
+{{ partial "footer.html" . }}
